@@ -18,11 +18,11 @@ const Hero = () => {
       
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 pt-16">
-        <div className="text-center text-white">
+        <div className="text-center text-primary-foreground">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
             Masa Depan
             <br />
-            <span className="bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-primary-foreground to-primary-foreground/80 bg-clip-text text-transparent">
               Perbankan Digital
             </span>
           </h1>
@@ -37,31 +37,31 @@ const Hero = () => {
               Buka Rekening Sekarang
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary">
+            <Button variant="heroOutline" size="lg">
               Pelajari Lebih Lanjut
             </Button>
           </div>
 
           {/* Trust Indicators */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            <div className="flex items-center justify-center space-x-3 p-6 bg-white/10 backdrop-blur-sm rounded-lg">
-              <Shield className="h-8 w-8 text-blue-200" />
+            <div className="flex items-center justify-center space-x-3 p-6 bg-primary-foreground/10 backdrop-blur-sm rounded-lg">
+              <Shield className="h-8 w-8 text-primary-foreground/80" />
               <div className="text-left">
                 <div className="text-2xl font-bold">100%</div>
                 <div className="text-sm opacity-80">Keamanan Terjamin</div>
               </div>
             </div>
             
-            <div className="flex items-center justify-center space-x-3 p-6 bg-white/10 backdrop-blur-sm rounded-lg">
-              <TrendingUp className="h-8 w-8 text-green-200" />
+            <div className="flex items-center justify-center space-x-3 p-6 bg-primary-foreground/10 backdrop-blur-sm rounded-lg">
+              <TrendingUp className="h-8 w-8 text-primary-foreground/80" />
               <div className="text-left">
                 <div className="text-2xl font-bold">50+</div>
                 <div className="text-sm opacity-80">Negara Terlayani</div>
               </div>
             </div>
             
-            <div className="flex items-center justify-center space-x-3 p-6 bg-white/10 backdrop-blur-sm rounded-lg">
-              <CreditCard className="h-8 w-8 text-purple-200" />
+            <div className="flex items-center justify-center space-x-3 p-6 bg-primary-foreground/10 backdrop-blur-sm rounded-lg">
+              <CreditCard className="h-8 w-8 text-primary-foreground/80" />
               <div className="text-left">
                 <div className="text-2xl font-bold">24/7</div>
                 <div className="text-sm opacity-80">Layanan Tersedia</div>
